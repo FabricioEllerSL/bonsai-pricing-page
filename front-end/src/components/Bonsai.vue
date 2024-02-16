@@ -76,7 +76,63 @@
       </v-row>
     </v-container>
   </v-container>
+
+  <!-- PLANS ANS PRICING CARDS -->
+
+  <v-container class="mt-16 px-16">
+    <v-row>
+      <v-col>
+        <v-card class="pa-10 elevation-5 px-13" width="510">
+          <v-card-title class="text-h5">Workflow</v-card-title>
+          <div class="d-flex mx-4 my-3">
+            <p class="text-h5">$</p>
+            <p class="text-h3 d-flex align-end ml-2 font-weight-bold">19 <h6 class="text-subtitle-1 ml-2">/MONTH</h6></p>
+          </div>
+          <p class="bg-primary mx-4 mt-4 mb-10 divider-custom"></p>
+          <ul class="mx-9">
+            <li class="my-3">Unlimited Clients & Projects</li>
+            <li class="my-3">Proposals</li>
+            <li class="my-3">Contracts</li>
+            <li class="my-3">Invoicing & Payments</li>
+            <li class="my-3">Client CRM</li>
+            <li class="my-3">Project Management</li>
+            <li class="my-3">Task & Time Tracking</li>
+            <li class="my-3">IOS, Android, Chrome & Mac Apps</li>
+          </ul>
+          <v-btn class="bg-primary w-100 py-8 d-flex align-center mt-12 mb-4">START FREE</v-btn>
+        </v-card>
+      </v-col>
+      <v-col class="d-flex justify-end">
+        <v-card class="pa-10 elevation-5 px-13" width="510">
+          <v-card-title class="text-h5">Workflow Plus</v-card-title>
+          <div class="d-flex mx-4 my-3">
+            <p class="text-h5">$</p>
+            <p class="text-h3 d-flex align-end ml-2 font-weight-bold">29 <h6 class="text-subtitle-1 ml-2">/MONTH</h6></p>
+          </div>
+          <p class="bg-primary mx-4 mt-4 mb-10 divider-custom"></p>
+          <ul class="mx-9">
+            <li class="my-3">Everything in Workflow, plus...</li>
+            <li class="my-3">White-labelled client experience</li>
+            <li class="my-3">Client forms and questionnaires</li>
+            <li class="my-3">Workflow automations</li>
+            <li class="my-3">Subcontracting (client-mode)</li>
+            <li class="my-3">Calendly integration</li>
+            <li class="my-3">Client portal</li>
+            <li class="my-3">Priority support</li>
+          </ul>
+          <v-btn class="bg-primary w-100 py-8 d-flex align-center mt-12 mb-4">START FREE</v-btn>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
+
+
+
+
+
+
 </template>
+
 
 <style>
 .log-in-btn{
@@ -149,5 +205,9 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.divider-custom{
+  height: 2px;
 }
 </style>
