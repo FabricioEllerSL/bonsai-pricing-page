@@ -187,7 +187,28 @@
     </v-row>
   </v-container>
 
+  <!-- FREQUENTLY ASKED QUESTIONS -->
 
+  <v-container class="mt-16 px-16">
+    <h2 class="text-h4 font-weight-thin text-primary text-center">Frequently Asked Questions</h2>
+  </v-container>
+
+
+
+  <v-container class="mt-16 px-16 d-flex flex-column align-center">
+    <v-expansion-panels class="w-75 my-2 elevation-0">
+      <v-expansion-panel title="How does the 14 days free trial work?" text="Lorem ipsum dolor "></v-expansion-panel>
+    </v-expansion-panels>
+    <v-expansion-panels class="w-75 my-2 elevation-0">
+      <v-expansion-panel title="Can I change plans anytime?" text="Lorem ipsum dolor "></v-expansion-panel>
+    </v-expansion-panels>
+    <v-expansion-panels class="w-75 my-2 elevation-0">
+      <v-expansion-panel title="How do I pause my Bonsai subscription?" text="Lorem ipsum dolor "></v-expansion-panel>
+    </v-expansion-panels>
+    <v-expansion-panels class="w-75 my-2 elevation-0">
+      <v-expansion-panel title="What is your refund policy?" text="Lorem ipsum dolor "></v-expansion-panel>
+    </v-expansion-panels>
+  </v-container>
 
 
 
