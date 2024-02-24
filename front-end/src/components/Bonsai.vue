@@ -210,6 +210,73 @@
     </v-expansion-panels>
   </v-container>
 
+  <!-- END SECTION -->
+
+  <v-container class="mt-16 px-16">
+    <v-row>
+      <v-col class="d-flex justify-center">
+        <div>
+          <h4 class="mb-6">PRODUCT</h4>
+          <p class="my-1">Proposals</p>
+          <p class="my-1">Contracts</p>
+          <p class="my-1">Invoicing</p>
+          <p class="my-1">Client CRM</p>
+          <p class="my-1">Time Tracking</p>
+          <p class="my-1">Task Tracking</p>
+          <p class="my-1">Forms</p>
+          <p class="my-1">Accounting</p>
+          <p class="my-1">Bonsai Tax</p>
+          <p class="my-1">Bonsai Cash</p>
+
+          <p class="text-primary mt-5">Pricing</p>
+          <p>Bonsai Reviews</p>
+        </div>
+      </v-col>
+      <v-col class="d-flex justify-center">
+        <div>
+          <h4 class="mb-6">FREE RESOURCES</h4>
+          <p class="my-1">Freelance Resources</p>
+          <p class="my-1">Freelance Blog by Bonsai</p>
+          <p class="my-1">How to Write a Contract</p>
+          <p class="mb-7 mt-1">Online Signature Maker</p>
+
+          <p class="my-1">Self-Employed Taxes Hub</p>
+          <p class="my-1">Self-Employed Tax Calculator</p>
+          <p class="my-1 mb-6">Self-Employed Tax Deductions</p>
+
+          <h4 class="mb-3">Templates</h4>
+          <button class="my-1">Invoice Templates</button><br>
+          <button class="my-1">Proposal Templates</button><br>
+          <button class="my-1">Contract Templates</button><br>
+          <button class="my-1">Agreement Templates</button><br>
+          <button class="my-1">Scope of Work Templates</button><br>
+          <button class="my-1">Quote Templates</button><br>
+          <button class="my-1">Credit Note Templates</button><br>
+          <button class="my-1">Estimate Templates</button>
+        </div>
+
+      </v-col>
+      <v-col class="d-flex justify-center">
+        <div>
+          <h4 class="mb-6">BONSAI</h4>
+          <p>About</p>
+          <p>Careers</p>
+          <p>Support</p>
+          <p>LinkedIn</p>
+          <p>Twitter</p>
+          <p>Privacy Policy</p>
+          <p>Legal</p>
+
+          <p class="mt-3">Affiliates</p>
+          <p>Write for Us</p>
+
+          <button class="mt-6">Comparisons</button>
+        </div>
+
+      </v-col>
+    </v-row>
+  </v-container>
+
 
 
 
