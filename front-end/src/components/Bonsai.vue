@@ -126,6 +126,53 @@
     </v-row>
   </v-container>
 
+  <!-- SUPER CHARGE TITLE -->
+
+  <v-container class="mt-16 px-16">
+    <h2 class="text-h4 my-font-serif text-center">Super charge your works with add-ons</h2>
+  </v-container>
+
+  <!-- SUPER CHARGE CARDS -->
+
+  <v-container class="mt-16 px-16">
+    <v-card class="py-6 elevation-3">
+      <v-row>
+        <v-col cols="10">
+          <v-card-title class="mb-n2">Colaborators</v-card-title>
+          <v-card-subtitle>Invite other users to specific projects for limited access and funcionality.</v-card-subtitle>
+        </v-col>
+        <v-col cols="2" class="d-flex align-center">
+          <h2 class="pl-14">Free</h2>
+        </v-col>
+      </v-row>
+    </v-card>
+    <v-card class="py-6 elevation-3 my-4">
+      <v-row>
+        <v-col cols="10">
+          <v-card-title class="mb-n2">Partners</v-card-title>
+          <v-card-subtitle>Invite other users to specific projects for limited access and funcionality.</v-card-subtitle>
+        </v-col>
+        <v-col cols="2" class="d-flex flex-column align-center">
+          <h2 class="text-h4 font-weight-bold">$9</h2>
+          <h5>/MONTH</h5>
+        </v-col>
+      </v-row>
+    </v-card>
+    <v-card class="py-6 elevation-3">
+      <v-row>
+        <v-col cols="10">
+          <v-card-title class="mb-n2">Bonsai Tax</v-card-title>
+          <v-card-subtitle>Invite other users to specific projects for limited access and funcionality.</v-card-subtitle>
+          <button class="elevation-0 text-caption d-flex align-center text-primary ml-4 mt-1">LEARN MORE<v-icon icon="mdi-chevron-right"></v-icon> </button>
+        </v-col>
+        <v-col cols="2" class="d-flex flex-column align-center">
+          <h2 class="text-h4 font-weight-bold">$10</h2>
+          <h5>/MONTH</h5>
+        </v-col>
+      </v-row>
+    </v-card>
+  </v-container>
+
 
 
 
