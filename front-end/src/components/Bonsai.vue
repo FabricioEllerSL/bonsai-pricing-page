@@ -173,6 +173,20 @@
     </v-card>
   </v-container>
 
+  <!-- GREEN BG SECTION -->
+
+  <v-container class="mt-16 px-16">
+    <v-row style="background-color: #D4F1F4; height: 300px;" class="d-flex align-center rounded-lg">
+      <v-col class="pl-16" cols="9">
+        <h2 class="d-flex text-h4 my-font-serif">It's <h2 class="text-h4 mx-2 text-primary my-font-serif">your</h2> business.</h2>
+        <h2 class="text-h4 my-font-serif">We're here to help it grow.</h2>
+      </v-col>
+      <v-col cols="3">
+        <v-btn class="bg-primary px-12 py-8 font-weight-bold d-flex align-center">START FREE</v-btn>
+      </v-col>
+    </v-row>
+  </v-container>
+
 
 
 
