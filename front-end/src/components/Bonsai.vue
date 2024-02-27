@@ -14,9 +14,25 @@
 <template>
   <v-container fluid class="">
 
+    <!-- NAVBAR MOBILE -->
+
+    <div class="d-block w-100 d-md-none" style="position: absolute;">
+      <v-row>
+        <v-col cols="4" class="d-flex justify-center align-center">
+          <v-btn class="elevation-0">
+            <v-icon icon="mdi-menu" />
+          </v-btn>
+        </v-col>
+        <v-col cols="4" class="text-center">
+          <h1 class="text-primary">bonsai</h1>
+        </v-col>
+        <v-col cols="4"></v-col>
+      </v-row>
+    </div>
+
     <!-- NAVBAR / HEADER -->
 
-    <v-app-bar :elevation="0">
+    <div class="d-none d-md-block">
       <v-row>
         <v-col class="text-center">
           <h1 class="text-primary ml-n16">bonsai</h1>
@@ -25,7 +41,7 @@
           <!-- DROP DOWN MENUS -->
           <v-menu>
             <template v-slot:activator="{ props }">
-              <v-btn append-icon="mdi-chevron-down" color="grey" v-bind="props" class="text-capitalize text-subtitle-1">Product</v-btn>
+              <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Product</v-btn>
             </template>
             <v-list>
               <v-list-item v-for="(item, index) in items" :key="index" :value="index">
@@ -35,7 +51,7 @@
           </v-menu>
           <v-menu>
             <template v-slot:activator="{ props }">
-              <v-btn append-icon="mdi-chevron-down" color="grey" v-bind="props" class="text-capitalize text-subtitle-1">Templates</v-btn>
+              <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Templates</v-btn>
             </template>
             <v-list>
               <v-list-item v-for="(item, index) in items" :key="index" :value="index">
@@ -45,15 +61,15 @@
           </v-menu>
 
           <!-- BUTTONS -->
-          <v-btn class="text-grey text-capitalize text-subtitle-1">Pricing</v-btn>
-          <v-btn class="text-grey text-capitalize text-subtitle-1">Reviews</v-btn>
+          <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Pricing</v-btn>
+          <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Reviews</v-btn>
         </v-col>
         <v-col class="d-flex align-center justify-center">
           <v-btn class="text-primary mr-3 px-5 log-in-btn">LOG IN</v-btn>
           <v-btn class="bg-primary px-8 font-weight-bold">START FREE</v-btn>
         </v-col>
       </v-row>
-    </v-app-bar>
+    </div>
 
     <!-- PLANS AND PRICING -->
 
@@ -82,7 +98,7 @@
   <v-container class="mt-16 px-16">
     <v-row>
       <v-col>
-        <v-card class="pa-10 elevation-5 px-13" width="510">
+        <v-card class="pa-10 elevation-5 px-13 w-100">
           <v-card-title class="text-h5">Workflow</v-card-title>
           <div class="d-flex mx-4 my-3">
             <p class="text-h5">$</p>
@@ -103,7 +119,7 @@
         </v-card>
       </v-col>
       <v-col class="d-flex justify-end">
-        <v-card class="pa-10 elevation-5 px-13" width="510">
+        <v-card class="pa-10 elevation-5 px-13 w-100">
           <v-card-title class="text-h5">Workflow Plus</v-card-title>
           <div class="d-flex mx-4 my-3">
             <p class="text-h5">$</p>
@@ -177,11 +193,11 @@
 
   <v-container class="mt-16 px-16">
     <v-row style="background-color: #D4F1F4; height: 300px;" class="d-flex align-center rounded-lg">
-      <v-col class="pl-16" cols="9">
+      <v-col class="pl-0 pl-md-16" cols="12" md="9">
         <h2 class="d-flex text-h4 my-font-serif">It's <h2 class="text-h4 mx-2 text-primary my-font-serif">your</h2> business.</h2>
-        <h2 class="text-h4 my-font-serif">We're here to help it grow.</h2>
+        <h2 class="text-h4 my-font-serif text-center">We're here to help it grow.</h2>
       </v-col>
-      <v-col cols="3">
+      <v-col cols="12" md="3">
         <v-btn class="bg-primary px-12 py-8 font-weight-bold d-flex align-center">START FREE</v-btn>
       </v-col>
     </v-row>
@@ -192,8 +208,6 @@
   <v-container class="mt-16 px-16">
     <h2 class="text-h4 font-weight-thin text-primary text-center">Frequently Asked Questions</h2>
   </v-container>
-
-
 
   <v-container class="mt-16 px-16 d-flex flex-column align-center">
     <v-expansion-panels class="w-75 my-2 elevation-0">
