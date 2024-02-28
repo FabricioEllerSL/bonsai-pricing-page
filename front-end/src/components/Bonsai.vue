@@ -12,64 +12,60 @@
 </script>
 
 <template>
-  <v-container fluid class="">
+  <v-container fluid class="ma-0 pa-0">
 
     <!-- NAVBAR MOBILE -->
 
-    <div class="d-block w-100 d-md-none" style="position: absolute;">
-      <v-row>
-        <v-col cols="4" class="d-flex justify-center align-center">
-          <v-btn class="elevation-0">
-            <v-icon icon="mdi-menu" />
-          </v-btn>
-        </v-col>
-        <v-col cols="4" class="text-center">
-          <h1 class="text-primary">bonsai</h1>
-        </v-col>
-        <v-col cols="4"></v-col>
-      </v-row>
-    </div>
+    <v-row class="ma-0 pa-0 d-md-none">
+      <v-col cols="4" class="d-flex pa-0 justify-center align-center">
+        <v-btn class="elevation-0">
+          <v-icon icon="mdi-menu" />
+        </v-btn>
+      </v-col>
+      <v-col cols="4" class="pa-0 text-center">
+        <h1 class="text-primary">bonsai</h1>
+      </v-col>
+      <v-col cols="3" class="pa-0"></v-col>
+    </v-row>
 
     <!-- NAVBAR / HEADER -->
 
-    <div class="d-none d-md-block">
-      <v-row>
-        <v-col class="text-center">
-          <h1 class="text-primary ml-n16">bonsai</h1>
-        </v-col>
-        <v-col class="d-flex justify-space-around align-center">
-          <!-- DROP DOWN MENUS -->
-          <v-menu>
-            <template v-slot:activator="{ props }">
-              <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Product</v-btn>
-            </template>
-            <v-list>
-              <v-list-item v-for="(item, index) in items" :key="index" :value="index">
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu>
-          <v-menu>
-            <template v-slot:activator="{ props }">
-              <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Templates</v-btn>
-            </template>
-            <v-list>
-              <v-list-item v-for="(item, index) in items" :key="index" :value="index">
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </v-menu>
+    <v-row class="d-none d-md-block ma-0 pa-0">
+      <v-col class="text-center">
+        <h1 class="text-primary ml-n16">bonsai</h1>
+      </v-col>
+      <v-col class="d-flex justify-space-around align-center">
+        <!-- DROP DOWN MENUS -->
+        <v-menu>
+          <template v-slot:activator="{ props }">
+            <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Product</v-btn>
+          </template>
+          <v-list>
+            <v-list-item v-for="(item, index) in items" :key="index" :value="index">
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+        <v-menu>
+          <template v-slot:activator="{ props }">
+            <v-btn append-icon="mdi-chevron-down" v-bind="props" class="text-grey elevation-0 text-capitalize text-subtitle-1">Templates</v-btn>
+          </template>
+          <v-list>
+            <v-list-item v-for="(item, index) in items" :key="index" :value="index">
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
 
-          <!-- BUTTONS -->
-          <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Pricing</v-btn>
-          <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Reviews</v-btn>
-        </v-col>
-        <v-col class="d-flex align-center justify-center">
-          <v-btn class="text-primary mr-3 px-5 log-in-btn">LOG IN</v-btn>
-          <v-btn class="bg-primary px-8 font-weight-bold">START FREE</v-btn>
-        </v-col>
-      </v-row>
-    </div>
+        <!-- BUTTONS -->
+        <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Pricing</v-btn>
+        <v-btn class="elevation-0 text-grey text-capitalize text-subtitle-1">Reviews</v-btn>
+      </v-col>
+      <v-col class="d-flex align-center justify-center">
+        <v-btn class="text-primary mr-3 px-5 log-in-btn">LOG IN</v-btn>
+        <v-btn class="bg-primary px-8 font-weight-bold">START FREE</v-btn>
+      </v-col>
+    </v-row>
 
     <!-- PLANS AND PRICING -->
 
@@ -95,10 +91,10 @@
 
   <!-- PLANS ANS PRICING CARDS -->
 
-  <v-container class="mt-16 px-16">
+  <v-container class="mt-16 px-10 px-md-16 mx-auto">
     <v-row>
       <v-col>
-        <v-card class="pa-10 elevation-5 px-13 w-100">
+        <v-card class="pa-10 elevation-5 px-4 px-md-13 w-100">
           <v-card-title class="text-h5">Workflow</v-card-title>
           <div class="d-flex mx-4 my-3">
             <p class="text-h5">$</p>
@@ -119,7 +115,7 @@
         </v-card>
       </v-col>
       <v-col class="d-flex justify-end">
-        <v-card class="pa-10 elevation-5 px-13 w-100">
+        <v-card class="pa-10 elevation-5 px-4 px-md-13 w-100">
           <v-card-title class="text-h5">Workflow Plus</v-card-title>
           <div class="d-flex mx-4 my-3">
             <p class="text-h5">$</p>
