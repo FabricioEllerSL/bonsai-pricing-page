@@ -72,11 +72,11 @@
     <v-container class="mt-16 px-16">
       <v-row>
         <v-col>
-          <h2 class="text-h4 my-font-serif">Plans & Pricing</h2>
+          <h2 class="text-h4 my-font-serif text-center text-md-left">Plans & Pricing</h2>
         </v-col>
         <v-col>
           <h5 class="text-end mb-3 text-primary">2 MONTHS FREE!</h5>
-          <div class="d-flex align-center justify-end">
+          <div class="d-flex align-center justify-center justify-md-end">
             <h3 class="font-weight-regular">MONTHLY</h3>
             <label class="switch mx-5">
               <input type="checkbox">
@@ -91,7 +91,7 @@
 
   <!-- PLANS ANS PRICING CARDS -->
 
-  <v-container class="mt-16 px-10 px-md-16 mx-auto">
+  <v-container class="mt-0 mt-md-16 px-10 px-md-16 mx-auto">
     <v-row>
       <v-col>
         <v-card class="pa-10 elevation-5 px-4 px-md-13 w-100">
