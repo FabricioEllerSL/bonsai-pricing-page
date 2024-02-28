@@ -30,7 +30,7 @@
 
     <!-- NAVBAR / HEADER -->
 
-    <v-row class="d-none d-md-block ma-0 pa-0">
+    <v-row class="d-none d-md-flex ma-0 pa-0">
       <v-col class="text-center">
         <h1 class="text-primary ml-n16">bonsai</h1>
       </v-col>
@@ -146,7 +146,7 @@
 
   <!-- SUPER CHARGE CARDS -->
 
-  <v-container class="d-block d-md-flex mt-16 px-10 px-md-16">
+  <v-container class="d-none d-md-flex flex-md-column mt-16 px-10 px-md-16">
     <v-card class="py-6 elevation-3">
       <v-row>
         <v-col cols="10">
@@ -187,11 +187,22 @@
 
   <!-- SUPER CHARGE CARDS MOBILE -->
 
-  <v-container class="d-block d-md-none mt-16 px-10 px-md-16">
-    <v-card class="rounded-lg">
-      <v-card-title class="text-center">Colaborators</v-card-title>
-      <p class="text-center">Invite other users to specific projects for limited access and funcionality.</p>
-      <h2 class="text-center">Free</h2>
+  <v-container class="d-block d-md-none mt-6 px-10 px-md-16">
+    <v-card class="rounded-xl my-8 elevation-10">
+      <v-card-title class="text-center text-h4 font-weight-bold my-3">Colaborators</v-card-title>
+      <p class="text-center text-h6">Invite other users to specific projects for limited access and funcionality.</p>
+      <h2 class="text-center text-h4 my-3">Free</h2>
+    </v-card>
+    <v-card class="rounded-xl my-8 elevation-10">
+      <v-card-title class="text-center text-h4 font-weight-bold my-3">Partners</v-card-title>
+      <p class="text-center text-h6">Invite other users to specific projects for limited access and funcionality.</p>
+      <h2 class="text-h4 d-flex align-end justify-center my-3 font-weight-bold">$9 <h5 class="text-h6">/MONTH</h5></h2>
+      
+    </v-card>
+    <v-card class="rounded-xl my-8 elevation-10">
+      <v-card-title class="text-center text-h4 font-weight-bold my-3">Bonsai Tax</v-card-title>
+      <p class="text-center text-h6">Invite other users to specific projects for limited access and funcionality.</p>
+      <h2 class="text-h4 d-flex align-end justify-center my-3 font-weight-bold">$10 <h5 class="text-h6">/MONTH</h5></h2>
     </v-card>
   </v-container>
 
