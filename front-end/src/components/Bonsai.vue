@@ -207,6 +207,8 @@
   </v-container>
 
   <!-- GREEN BG SECTION -->
+  
+  <!-- ========== I STOPPED HERE ========= -->
 
   <v-container class="mt-16 px-10">
     <v-row style="background-color: #D4F1F4; height: 300px;" class="d-flex align-center rounded-lg">
