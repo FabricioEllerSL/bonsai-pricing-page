@@ -146,7 +146,7 @@
 
   <!-- SUPER CHARGE CARDS -->
 
-  <v-container class="mt-16 px-16">
+  <v-container class="d-block d-md-flex mt-16 px-10 px-md-16">
     <v-card class="py-6 elevation-3">
       <v-row>
         <v-col cols="10">
@@ -182,6 +182,16 @@
           <h5>/MONTH</h5>
         </v-col>
       </v-row>
+    </v-card>
+  </v-container>
+
+  <!-- SUPER CHARGE CARDS MOBILE -->
+
+  <v-container class="d-block d-md-none mt-16 px-10 px-md-16">
+    <v-card class="rounded-lg">
+      <v-card-title class="text-center">Colaborators</v-card-title>
+      <p class="text-center">Invite other users to specific projects for limited access and funcionality.</p>
+      <h2 class="text-center">Free</h2>
     </v-card>
   </v-container>
 
