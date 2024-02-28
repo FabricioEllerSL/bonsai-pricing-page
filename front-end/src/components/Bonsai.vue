@@ -208,14 +208,14 @@
 
   <!-- GREEN BG SECTION -->
 
-  <v-container class="mt-16 px-16">
+  <v-container class="mt-16 px-10">
     <v-row style="background-color: #D4F1F4; height: 300px;" class="d-flex align-center rounded-lg">
       <v-col class="pl-0 pl-md-16" cols="12" md="9">
-        <h2 class="d-flex text-h4 my-font-serif">It's <h2 class="text-h4 mx-2 text-primary my-font-serif">your</h2> business.</h2>
-        <h2 class="text-h4 my-font-serif text-center">We're here to help it grow.</h2>
+        <h2 class="d-flex text-h4 justify-center justify-md-start my-font-serif">It's <h2 class="text-h4 mx-2 text-primary my-font-serif">your</h2> business.</h2>
+        <h2 class="text-h4 my-font-serif text-center text-md-left">We're here to help it grow.</h2>
       </v-col>
       <v-col cols="12" md="3">
-        <v-btn class="bg-primary px-12 py-8 font-weight-bold d-flex align-center">START FREE</v-btn>
+        <v-btn class="bg-primary px-12 py-6 py-md-8 mx-auto mx-md-0 font-weight-bold d-flex align-center">START FREE</v-btn>
       </v-col>
     </v-row>
   </v-container>
